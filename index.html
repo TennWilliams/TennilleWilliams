@@ -13,18 +13,62 @@
     
         <style>
         
-          .side-word{
-              font-family: 'Oleo Script', cursive;
-              font-size: 48px;
-              font-variant: small-caps;
-              color: white;
-              
-              margin: 0;
-              padding-top: 10px;
-              margin-left: 10px;
-              flex: 0%;
-            
+          #scroll-container {
+          border: 3px solid blue;
+          border-radius: 5px;
+          overflow: hidden;
+          width: 20%;
+          display: flex;
+          justify-content: end;
           }
+
+          .scroller {
+            height: 1.2em;
+            line-height: 1.2em;
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            flex: 0%;
+            justify-content: center;
+          }
+
+          .scroller > span {
+            position: absolute;
+            top: 0;
+            animation: slide 10s infinite;
+            font-weight: bold;
+            text-align: center;
+            padding-left: 60px;
+            color: wheat;
+            flex: 0%;
+            justify-content: center;
+          }
+
+          @keyframes slide {
+            0% {
+              top: 0;
+            }
+            25% {
+              top: -1.2em;
+            }
+            50% {
+              top: -2.4em;
+            }
+            75% {
+              top: -3.6em;
+            }
+          }
+
+          .page-header{
+            padding-top: 70px;
+            display: flex;
+            color: white;
+            font-style: italic;
+            font-size: x-large;
+            padding-left: 50px;
+          }
+
+          
           .side-sent{
               font-family: 'Marck Script', cursive;
               font-size: 17px;
@@ -38,14 +82,11 @@
           }
           .me{
               color: white;
-              /*text-align: center;*/
+              text-align: center;
               font-size: 50px;
-              padding-top: 20px;
-              padding-right: 300px;
-              /*margin: 0;*/
-              flex: 0%;
-              font-family: 'Oleo Script', cursive;
-              
+              padding-left: 50px;
+              justify-content: center;
+              font-family: 'Oleo Script', cursive;     
           }
           .skills{
               color: white;
@@ -54,13 +95,7 @@
               padding-top: 40px;
               font-family: 'Oleo Script', cursive;
           }
-          .goal{
-              color: white;
-              text-align: center;
-              font-size: 50px;
-              padding-top: 40px;
-              font-family: 'Oleo Script', cursive;
-          }
+          
           .passion{
               color: white;
               text-align: center;
@@ -75,24 +110,28 @@
               padding-top: 40px;
               font-family: 'Oleo Script', cursive;
           }
+          .MIT-two{
+            padding-left: 100px;
+            padding-right: 100px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: black;
+            font-size: 25px;
+            background-color: rgb(80, 179, 240);
+            text-align: center;
+          }
           body{
-              /*background-color: rgb(161, 40, 161);*/
               background-image: url('NY3.jpg');
               background-repeat: no-repeat;
               background-attachment: fixed;
-              background-size: cover;
-
-              
+              background-size: cover; 
           }
           .content{
               display: grid;
               grid-template-columns: 400px 400px 400px;
               grid-template-rows: 2fr 2fr 2fr;
               justify-content: center;
-              
               gap: 10px;  
-              padding: 20px; 
-              
+              padding: 20px;   
           }
           .one{
               background-color: darkblue;
@@ -186,19 +225,18 @@
           }
         
           .my-pic{
-            padding-right: 50px;
-            margin-left: 30px;
+            padding-right: 10px;
+            margin-left: 10px;
             flex: 0%;
             
           }
           .bio{
             text-align: center;
-            padding-left: 20px;
+            padding-left: 50px;
             padding-right: 20px;
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             color: white;
             font-size: large;
-            
           }
           
           .fam-pic{
@@ -207,22 +245,19 @@
           }
         
           .navbar{
-            
+            font-size: 18px;
             overflow: visible;
             position: fixed;
             top: 0;
             width: 100%;
             margin-bottom: 60px;
-            color: blue;
+            color: white;
           }
           .navbar a:hover {
             background-color: rgb(0, 195, 255);
             color: white;
           }
-          .top{
-           display: flex; 
-           padding-top: 60px;
-          }
+          
           .pic{
             display: flex;
           }
@@ -247,6 +282,27 @@
             height: 300;
             display: block;
           }
+          .eyes{
+            flex: 50%;
+            justify-content: center;
+            padding-bottom: 40px;
+            font-size: 35px;
+          }
+          .project{
+            display: flex;
+            padding-bottom: 30px;
+          }
+          .bus-tracker{
+            margin-left: 50px;
+            font-size: 40px;
+          }
+          .PacMan{
+            margin-left: 200px;
+            border: 3px solid wheat;
+            border-radius: 5px;
+            overflow: hidden;
+            font-size: 40px;
+          }
       </style>
     </head>
 
@@ -267,11 +323,11 @@
             <a class="nav-link" href="#me" style="font-weight: 500;">Bio</a>
           </li>
           <li class="nav-item">
-          <a class="nav-link" href="#skills" style="font-weight: 500;">Skills</a>
+          <a class="nav-link" href="#you-tube" style="font-weight: 500;">YouTube</a>
           </li>
           <li class="nav-item">
-          <a class="nav-link" href="#goal" style="font-weight: 500;">Goals</a>
-          </li>
+            <a class="nav-link" href="#skills" style="font-weight: 500;">Skills</a>
+            </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-weight: 500;">
             Projects
@@ -279,7 +335,6 @@
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item nav-link" href="#">MIT Projects</a></li>
                 <li><a class="dropdown-item nav-link" href="#passion">Passion Projects</a></li>
-                <li><a class="dropdown-item nav-link" href="#">Something else here</a>
               </ul>
           </li>
         </ul>
@@ -287,17 +342,24 @@
         <a class="navbar-brand" href="#" style="font-weight: bolder; font-size: xx-large; margin-left: 100px; margin-right: 50px;" >Tennille Williams - Aspiring Associate Software Engineer</a>
        <a class="nav-link" href="https://github.com/TennWilliams#" style="font-weight: 500; margin-left: 10px;">GitHub</a>
        <a class="nav-link" href="https://linkedin.com/in/tennille-williams-bb7864212#" style="font-weight: 500; margin-right: 20px; margin-left: 20px">LinkedIn</a>
-      </div>
-      
+      </div> 
       </nav>
-      
-    
     </nav>
 
-    <div class="top">
-      <div class="side-word">Motivation</div>
-      <div class="me" id="me">Get To Know Me</div> 
+    <div class="page-header">Inspirational Corner</div>
+    <div id="scroll-container">
+        <div class="scroller">
+          <span>
+            You are Loved<br/>
+            You are worthy<br/>
+            Keep going you got this<br/>
+            Sky is the limit
+          </span>
+        </div>
     </div>
+    
+
+    <div class="me" id="me">Get To Know Me</div> 
     <div class="side-sent">My Kids are my Motivation</div>
     <div class="pic">
       <div class="fam-pic">
@@ -310,10 +372,10 @@
       </div><br>
     </div>
 
-    <div class="you-tube">
-      <iframe width="300" height="300" src="https://www.youtube.com/embed/uFhKNcfN024" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    <div class="you-tube" id="you-tube">
+      <iframe width="300" height="300" src="https://www.youtube.com/embed/uFhKNcfN024" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;        picture-in-picture" allowfullscreen>
       </iframe>
-      <div class="video-word">Check out my YouTube Video to get to know me better <br> Then reach out to me via my LinkedIn Page <br> (Link to page is in right hand corner of Nav Bar)</div><br>
+    <div class="video-word">Check out my YouTube Video to get to know me better <br> Then reach out to me via my LinkedIn Page <br> (Link to page is in right hand corner of Nav Bar)</div><br>
     </div>
 
     <div class="skills" id="skills">My Skills</div>
@@ -329,9 +391,25 @@
         <div class="nine">Problem Solving</div>
     </div>
 
-    <h1 class="goal" id="goal">My Goals</h1>
-    <h1 class="MIT" id="MIT">MIT Projects</h1>
-    <h1 class="passion" id="passion">Passion Projects</h1>
+    <div class="MIT" id="MIT">MIT Projects
+      <div class="MIT-two">Below are some of my JavaScript projects that I coded while attending MIT Full Stack MERN Certification Course.  For a full description of these projects please visit my <button style="color: blueviolet;" onclick="document.location='index.html'">Project Page</button>. To see my other projects please vist my GitHub repository site via the GitHub link in the Navigation Bar.</div><br>
+      <!--a href="index.html" style="color: purple;-->
+    
+      
+        <div class="eyes">Put Your Hand Where My Eyes Can See<br>
+          <embed src="eyes.html" alt="Eyes that follow you" width="700" height="400">
+        </div>
+        <div class="project">
+          <div class="bus-tracker">Bus Tracker <br>
+            <embed src="bus-tracker.html" alt="Real Time Bus Tracker" width="700" height="300">
+          </div>
+          <div class="PacMan">PacMan <br>
+            <embed src="PacMan.html" alt="Pacman Game" width="500" height="500">
+          </div>
+        </div>
+    </div>
+
+    <div class="passion" id="passion">Passion Projects</div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
