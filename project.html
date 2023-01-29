@@ -23,11 +23,11 @@
             color: white;
           }
           .navbar a:hover {
-            background-color: rgb(0, 195, 255);
+            background-color: magenta;
             color: white;
           }
           body{
-            background-image: url('NY3.jpg');
+            background-color: purple;
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: cover; 
@@ -47,11 +47,11 @@
             font-family: 'Oleo Script', cursive;
           }
           .eyes-header{
-            margin-left: 150px;
+            margin-left: 130px;
             font-size: 30px;
             padding-top: 40px;
             color: white;
-            
+            font-weight: bolder;
           }
           .eyes{
             margin-left: 50px;
@@ -65,20 +65,21 @@
             font-weight: bold;
             font-size: x-large;
             padding-top: 60px;
-            
+            text-align: center;
+            margin-right: 20px;
           }
           .bus-header{
             text-align: center;
-            /*margin-left: 150px;*/
             font-size: 30px;
             padding-top: 40px;
+            font-weight: bolder;
             color: white;
           }
           .bus-tracker{
             flex: 0%;
             padding-bottom: 40px;
             color: white;
-            margin-left: 50px;
+            margin-left: 100px;
           }
           .bus-words{
             padding-bottom: 40px;
@@ -87,36 +88,37 @@
             font-size: x-large;
             padding-top: 60px;
             text-align: center;
+            margin-left: 100px;
+            margin-right: 250px;
           }
-          #scroll-container {
-          border: 3px solid wheat;
-          border-radius: 5px;
-          overflow: hidden;
-          display: flex;
-          width: 500;
-          height: 500;
-          margin-left: 10px;
-          margin-right: 100px;
-          }
-          .PacMan{
+           #scroll-container {
             flex: 0%;
-            color: white;
-          }
+            width: 500;
+            height: 500;
+            margin-left: 80px;
+            padding-right: 240px;
+         }
           .PacMan-words{
-            text-align: center;
             color: white;
-            padding-left: 30px;
-            padding-right: 30px;
-            display: flex;
             font-weight: bold;
             font-size: x-large;
+            text-align: center;
+            padding-right: 10px;
+            margin-left: 20px;
+            display: flex;
           }
           .PacMan-header{
-            text-align: end;
-            padding-right: 400px;
+            padding-left: 280px;
             font-size: 30px;
             padding-top: 40px;
             color: white;
+            font-weight: bolder;
+          }
+          .PacMan{
+            flex: 0%;
+            border: 3px solid wheat;
+            border-radius: 5px;
+            overflow: hidden;
           }
         </style>
 
@@ -125,7 +127,7 @@
     <body>
         <nav class="navbar">
          <nav class="navbar navbar-expand-lg bg-body-tertiary" >
-          <div class="container-fluid" style="background-color: cornflowerblue;">
+          <div class="container-fluid" style="background-color: plum">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"    aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -148,13 +150,17 @@
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-weight: 500;">
                 Projects
                 </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item nav-link" href="project.html">MIT Projects</a></li>
-                    <li><a class="dropdown-item nav-link" href="index.html #passion">Passion Projects</a></li>
-                  </ul>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item nav-link" href="index.html #passion">Passion Projects</a></li>
+                  <li><a class="dropdown-item nav-link" href="#eyes-header">Eyes</a></li>
+                  <li><a class="dropdown-item nav-link" href="#bus-header">Bus Tracker</a></li>
+                  <li><a class="dropdown-item nav-link" href="#PacMan-header">PacMan Game</a></li>
+                </ul>
               </li>
-            </ul>
+                  </ul>
             </div>
+            
+
             <a class="navbar-brand" href="#" style="font-weight: bolder; font-size: xx-large; margin-left: 100px; margin-right: 50px;" >Tennille Williams - Aspiring Associate Software Engineer</a>
            <a class="nav-link" href="https://github.com/TennWilliams#" style="font-weight: 500; margin-left: 10px;">GitHub</a>
            <a class="nav-link" href="https://linkedin.com/in/tennille-williams-bb7864212#" style="font-weight: 500; margin-right: 20px; margin-left: 20px">LinkedIn</a>
@@ -163,30 +169,28 @@
         </nav>
         
         <div class="header">Project Page</div>
-        <div class="header-words">Welcome to my Project Page.  Read all projects description and have fun interacting with them</div>
-        <div class="eyes-header">Put Your Hand Where My Eyes Can See </div>
+        <div class="header-words">Welcome to my Project Page.  Read all projects description and have fun interacting with them!!!</div><br>
+        <div class="eyes-header" id="eyes-header">Put Your Hand Where My Eyes Can See </div>
         <div class="eyes">
-             <embed src="eyes.html" alt="Eyes that follow you" width="700" height="400">
+             <embed src="eyes-project.html" alt="Eyes that follow you" width="700" height="400">
             
-            <div class="eyes-words">In this project, the eyes will follow the mouse cursor around the screen.  If you are viewing on a tablet or phone click around the blue box and the eyes will follow you.  Have fun with this project and know that my eyes are on you at all times lol <br> View my code for this project on my <a href="https://github.com/TennWilliams/Eyes" style="color: darkorange">eyes repository</a> in Github
+            <div class="eyes-words">In this project, the eyes will follow the mouse cursor around the screen.  If you are viewing on a tablet or phone click around the purple box and the eyes will follow you.  Have fun with this project and know that my eyes are on you at all times lol. <br> <br> Visit my <a href="https://github.com/TennWilliams/Eyes" style="color: violet">Eyes Repository</a> on Github to view the code for this project
             </div>
-        </div>
-        <div class="bus-header">How Many Stops Do I Have?</div>
+        </div><br>
+        <div class="bus-header" id="bus-header">How Many Stops Do I Have?</div><br>
         <div class="bus-tracker">
             <embed src="bus-tracker.html" alt="Real Time Bus Tracker" width="1400" height="400">
-            <div class="bus-words">In this project,
-                <br>View my code for this project on my <a href="https://github.com/TennWilliams/Bus-Tracker" style="color: darkorange"> Bus Tracker repository </a> in Github
+            <div class="bus-words">In this project, I imported a nighttime map of Brooklyn and added a starter marker between Fulton St and Kingston Ave.  Then when you press the button the marker will move along Fulton Street thru all the stops the B25 bus makes until you get to Clermont Ave.  I picked this route because this is the bus route I traveled everyday to get to and from school.  Press the button to see the markers move along my old school bus route.<br><br>Visit my <a href="https://github.com/TennWilliams/Bus-Tracker" style="color: violet">Bus Tracker Repository</a> on Github to view the code for this project
             </div>
         </div>
-        <div class="PacMan-header">PacMan Game</div>
-        <div class="PacMan-words">In this project,
-            View my code for this project on my <a href="https://github.com/TennWilliams/PacMan" style="color: darkorange"> PacMan repository</a> in Github
-
-        <div id="scroll-container">
+        <div class="PacMan-header" id="PacMan-header">PacMan Game<br>
+        </div>
+        <div class="PacMan-words"><img src="PacMan1.png" width="50" height="50"><br> <br>In this project, when you press the add PacMan button pacmen will load into the box, add as many as you like.  Then press the start game button and the pacmen will move across the screen until they hit the box which causes them to reverse their direction.  Add some pacmen and start the game to see it in action. 
+          <div id="scroll-container"><a href="https://github.com/TennWilliams/PacMan" style="color: violet"> PacMan Repository </a>
             <div class="PacMan">
             <embed src="PacMan.html" alt="Pacman Game" width="500" height="500">
             </div>
-        </div>
+          </div>
         </div>
         <br>
         
