@@ -19,7 +19,7 @@
           overflow: hidden;
           width: 35%;
           display: flex;
-          justify-content: end;
+          margin-left: 1000px;
           }
 
           .scroller {
@@ -29,7 +29,7 @@
             overflow: hidden;
             width: 100%;
             flex: 0%;
-            justify-content: center;
+          
           }
 
           .scroller > span {
@@ -65,7 +65,8 @@
             color: white;
             font-style: italic;
             font-size: x-large;
-            
+            justify-content: end;
+            margin-right: 350px;
           }
 
           
@@ -312,6 +313,38 @@
             background-color: rgb(80, 179, 240);
             text-align: center;
           }
+          @media screen and (max-width:580px) {
+            .PacMan {
+            margin-left: 50px;
+            border: 3px solid wheat;
+            border-radius: 5px;
+            overflow: hidden;
+            font-size: 30px;
+            }
+            .project{
+              padding-bottom: 30px;
+            }
+            .side-sent{
+              font-size: 10px;
+            }
+          }
+          .carousel-inner{
+            width: 640px;
+            height: 600px;
+            justify-content: center;
+            flex: 0;
+          }
+          .carousel slide{
+            justify-content: center;
+            width: 640px;
+            height: 600px;
+            flex: 0%;
+            
+          }
+          .carousel-section{
+            display: flex;
+            justify-content: center;
+          }
       </style>
     </head>
 
@@ -420,12 +453,60 @@
     </div>
 
     <div class="passion" id="passion">Passion Projects
-      <div class="passion-two">I always had a love for programming since high school when I started studying it but the focus was mainly on the back end of programming.      However over the years I have been drawn to the creativity of the front end of programming and am looking to explore this passion of mine more.  At work, I was given the opportunity to build and design my team's new SharePoint online site and this has allowed me the chance to tap into my creative side.  Please view my video showcasing this site.  I also have some of my passion projects that I designed for family events below.  Check them out and comment via Linked in.
+      <div class="passion-two">I always had a love for programming since high school when I started studying it but the focus was mainly on the back end of programming.      However over the years I have been drawn to the creativity of the front end of programming and am looking to explore this passion of mine more.  At work, I was given the opportunity to build and design my team's new SharePoint online site and this has allowed me the chance to tap into my creative side.  Please view my video below showcasing this site.  In my spare time I also design invites, programs and flyers for family members and have listed some of these projects below.  Check them out and comment via Linked in.
       </div>
-
-      <div class="passion-pics">
-
+      <div class ="carousel-section">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="6" aria-label="Slide 7"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="7" aria-label="Slide 8"></button>
+            
+          </div>
+      
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="wedding1.png" class="d-block w-100" alt="Wedding Program Cover" width="640" height="600">
+            </div>
+            <div class="carousel-item">
+              <img src="wedding2.png" class="d-block w-100" alt="Wedding Program Inside Page" width="640" height="600">
+            </div>
+            <div class="carousel-item">
+              <img src="wedding3.png" class="d-block w-100" alt="Wedding Program Back Page" width="640" height="600">
+            </div>
+            <div class="carousel-item">
+              <img src="Thank You.png" class="d-block w-100" alt="Thank You" width="640" height="600">
+            </div>
+            <div class="carousel-item">
+              <img src="vote.png" class="d-block w-100" alt="Vote" width="640" height="600">
+            </div>
+            <div class="carousel-item">
+              <img src="Invite.png" class="d-block w-100" alt="Birthday Invite" width="640" height="600">
+            </div>
+            <div class="carousel-item">
+              <img src="craft.png" class="d-block w-100" alt="Craft" width="640" height="600">
+            </div>
+            <div class="carousel-item">
+              <img src="Event.png" class="d-block w-100" alt="Event Agenda" width="640" height="600">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
       </div>
+  
+
 
 
     </div>

@@ -120,6 +120,49 @@
             border-radius: 5px;
             overflow: hidden;
           }
+          @media screen and (max-width:580px) {
+            .eyes{
+            margin-left: 50px;
+            }
+            .eyes-words{
+            padding-bottom: 40px;
+            color: white;
+            font-weight: bold;
+            font-size: x-large;
+            padding-top: 60px;
+            text-align: center;
+          }
+          .bus-tracker{
+            padding-bottom: 40px;
+            color: white;
+            margin-left: 50px;
+            width: 1000px;
+          }
+          .bus-words{
+            padding-top: 60px;
+            color: white;
+            font-weight: bold;
+            font-size: x-large;
+            padding-top: 60px;
+            text-align: center;
+          }
+          #scroll-container {
+            width: 500;
+            height: 500;
+         }
+         .PacMan-words{
+            color: white;
+            font-weight: bold;
+            font-size: x-large;
+            text-align: center;
+            padding-top: 60px;
+          }
+          .PacMan{
+            border: 3px solid wheat;
+            border-radius: 5px;
+            overflow: hidden;
+          }
+          }
         </style>
 
     </head>
@@ -151,10 +194,10 @@
                 Projects
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item nav-link" href="index.html #passion">Passion Projects</a></li>
                   <li><a class="dropdown-item nav-link" href="#eyes-header">Eyes</a></li>
                   <li><a class="dropdown-item nav-link" href="#bus-header">Bus Tracker</a></li>
                   <li><a class="dropdown-item nav-link" href="#PacMan-header">PacMan Game</a></li>
+                  <li><a class="dropdown-item nav-link" href="index.html #passion">Passion Projects</a></li>
                 </ul>
               </li>
                   </ul>
@@ -180,12 +223,12 @@
         <div class="bus-header" id="bus-header">How Many Stops Do I Have?</div><br>
         <div class="bus-tracker">
             <embed src="bus-tracker.html" alt="Real Time Bus Tracker" width="1400" height="400">
-            <div class="bus-words">In this project, I imported a nighttime map of Brooklyn and added a starter marker between Fulton St and Kingston Ave.  Then when you press the button the marker will move along Fulton Street thru all the stops the B25 bus makes until you get to Clermont Ave.  I picked this route because this is the bus route I traveled everyday to get to and from school.  Press the button to see the markers move along my old school bus route.<br><br>Visit my <a href="https://github.com/TennWilliams/Bus-Tracker" style="color: violet">Bus Tracker Repository</a> on Github to view the code for this project
+            <div class="bus-words">In this project, I imported a nighttime map of Brooklyn and added a starter marker between Fulton St and Kingston Ave using an API key from MTA.  Then when you press the button the marker will move along Fulton Street thru all the stops the B25 bus makes until you get to Clermont Ave.  I picked this route because this is the bus route I traveled everyday to get to and from school.  Press the button to see the markers move along my old school bus route.<br><br>Visit my <a href="https://github.com/TennWilliams/Bus-Tracker" style="color: violet">Bus Tracker Repository</a> on Github to view the code for this project
             </div>
         </div>
         <div class="PacMan-header" id="PacMan-header">PacMan Game<br>
         </div>
-        <div class="PacMan-words"><img src="PacMan1.png" width="50" height="50"><br> <br>In this project, when you press the add PacMan button pacmen will load into the box, add as many as you like.  Then press the start game button and the pacmen will move across the screen until they hit the box which causes them to reverse their direction.  Add some pacmen and start the game to see it in action. 
+        <div class="PacMan-words"><br> <br>In this project, when you press the add PacMan button pacmen will load into the box, add as many as you like.  Then press the start game button and the pacmen will move across the screen until they hit the box which causes them to reverse their direction.  Add some pacmen and start the game to see it in action. 
           <div id="scroll-container"><a href="https://github.com/TennWilliams/PacMan" style="color: violet"> PacMan Repository </a>
             <div class="PacMan">
             <embed src="PacMan.html" alt="Pacman Game" width="500" height="500">
