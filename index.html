@@ -237,7 +237,8 @@
             padding-right: 20px;
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             color: white;
-            font-size: large;
+            font-size: 21px;
+            font-weight: bold;
           }
           
           .fam-pic{
@@ -274,14 +275,13 @@
             text-align: center;
             color: white;
             font-size: large;
-            padding-top: 80px;
+            padding-top: 100px;
             
           }
-          iframe{
+          .video{
             flex: 0%;
-            width: 300;
-            height: 300;
-            display: block;
+            
+            
           }
           .eyes{
             flex: 50%;
@@ -333,6 +333,7 @@
             height: 600px;
             justify-content: center;
             flex: 0;
+          
           }
           .carousel slide{
             justify-content: center;
@@ -343,7 +344,28 @@
           }
           .carousel-section{
             display: flex;
+            
             justify-content: center;
+          }
+          .passion-three{
+            display: flex;
+            
+          }
+          .share-word{
+            margin-left: 50px;
+            padding-right: 100px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: white;
+            font-size: 25px;
+            text-align: center;
+            flex: 0%;
+            padding-top: 50px;
+            font-size: 25px;
+            font-weight: bold;
+          }
+          .share-video{
+            margin-right: 50px;
+            
           }
       </style>
     </head>
@@ -416,8 +438,10 @@
     </div>
 
     <div class="you-tube" id="you-tube">
-      <iframe width="300" height="300" src="https://www.youtube.com/embed/uFhKNcfN024" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;        picture-in-picture" allowfullscreen>
+      <div class="video">
+      <iframe width="600" height="400" src="https://www.youtube.com/embed/uFhKNcfN024" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;        picture-in-picture" allowfullscreen>
       </iframe>
+      </div>
       <div class="video-word">Check out my YouTube Video to get to know me better <br> Then reach out to me via my LinkedIn Page <br> (Link to page is in right hand corner of Nav Bar)</div><br>
     </div>
 
@@ -453,10 +477,10 @@
     </div>
 
     <div class="passion" id="passion">Passion Projects
-      <div class="passion-two">I always had a love for programming since high school when I started studying it but the focus was mainly on the back end of programming.      However over the years I have been drawn to the creativity of the front end of programming and am looking to explore this passion of mine more.  At work, I was given the opportunity to build and design my team's new SharePoint online site and this has allowed me the chance to tap into my creative side.  Please view my video below showcasing this site.  In my spare time I also design invites, programs and flyers for family members and have listed some of these projects below.  Check them out and comment via Linked in.
+      <div class="passion-two">I always had a love for programming since high school when I started studying it but the focus was mainly on the back end of programming.      However over the years I have been drawn to the creativity of the front end of programming and am looking to explore this passion of mine more.  In my spare time I design invites, programs and flyers for family members and have listed some of these projects below.
       </div>
       <div class ="carousel-section">
-        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide " data-bs-ride="carousel">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -502,12 +526,16 @@
           <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
-          </button>
+          </button><br>
         </div>
       </div>
   
-
-
+      <div class="passion-three">
+        <div class="share-word">At work, I was given the opportunity to build and design my team's new SharePoint Online site and this has given me the chance to tap into my creative side.  Please view my video below showcasing this site and as always you can contact me via LinkedIn.</div>
+      <div class="share-video">
+      <iframe width="600" height="600" src="SharePoint.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;        picture-in-picture" allowfullscreen>
+      </iframe>
+      </div>
 
     </div>
 
