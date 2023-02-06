@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Tennille Williams Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,366 +12,11 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
     
-        <style>
-        
-          #scroll-container {
-          border: 3px solid blue;
-          border-radius: 5px;
-          overflow: hidden;
-          width: 35%;
-          display: flex;
-          margin-left: 1000px;
-          }
-
-          .scroller {
-            height: 1.2em;
-            line-height: 1.2em;
-            position: relative;
-            overflow: hidden;
-            width: 100%;
-            flex: 0%;
-          
-          }
-
-          .scroller > span {
-            position: absolute;
-            top: 0;
-            animation: slide 20s infinite;
-            font-weight: bold;
-            text-align: center;
-            padding-left: 30px;
-            color: white;
-            flex: 0%;
-            justify-content: center;
-          }
-
-          @keyframes slide {
-            0% {
-              top: 0;
-            }
-            25% {
-              top: -1.2em;
-            }
-            50% {
-              top: -2.4em;
-            }
-            75% {
-              top: -3.6em;
-            }
-          }
-
-          .page-header{
-            padding-top: 70px;
-            display: flex;
-            color: white;
-            font-style: italic;
-            font-size: x-large;
-            justify-content: end;
-            margin-right: 350px;
-          }
-
-          
-          .side-sent{
-              font-family: 'Marck Script', cursive;
-              font-size: 17px;
-              font-variant: normal;
-              color: whitesmoke;
-              padding: 0;
-              margin: 0;
-              line-height: 0em;
-              margin-left: 12px;
-              padding-bottom: 10px;
-          }
-          .me{
-              color: white;
-              text-align: center;
-              font-size: 50px;
-              padding-left: 50px;
-              justify-content: center;
-              font-family: 'Oleo Script', cursive;     
-          }
-          .skills{
-              color: white;
-              text-align: center;
-              font-size: 50px;
-              padding-top: 40px;
-              font-family: 'Oleo Script', cursive;
-          }
-          
-          .passion{
-              color: white;
-              text-align: center;
-              font-size: 50px;
-              padding-top: 40px;
-              font-family: 'Oleo Script', cursive;
-          }
-          .MIT{
-              color: white;
-              text-align: center;
-              font-size: 50px;
-              padding-top: 40px;
-              font-family: 'Oleo Script', cursive;
-          }
-          .MIT-two{
-            padding-left: 100px;
-            padding-right: 100px;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            color: black;
-            font-size: 25px;
-            background-color: rgb(80, 179, 240);
-            text-align: center;
-          }
-          body{
-              background-image: url('NY3.jpg');
-              background-repeat: no-repeat;
-              background-attachment: fixed;
-              background-size: cover; 
-          }
-          .content{
-              display: grid;
-              grid-template-columns: 400px 400px 400px;
-              grid-template-rows: 2fr 2fr 2fr;
-              justify-content: center;
-              gap: 10px;  
-              padding: 20px;   
-          }
-          .one{
-              background-color: darkblue;
-              color: white;
-              font-size: 20px;
-              text-align: center;
-              padding-bottom: 10px;
-              padding-top: 10px;
-              font-weight: bold;
-          }
-          .two{
-              background-color: cornflowerblue;
-              color: white;
-              font-size: 20px;
-              text-align: center;
-              padding-top: 10px;
-              padding-bottom: 10px;
-              font-weight: bold;
-          }
-          .three{
-              background-color: darkblue;
-              color: white;
-              font-size: 20px;
-              text-align: center;
-              padding-top: 10px;
-              padding-bottom: 10px;
-              font-weight: bold;
-          }
-          .four{
-              background-color: cornflowerblue;
-              color: white;
-              font-size: 20px;
-              text-align: center;
-              padding-top: 10px;
-              font-weight: bold;
-              padding-bottom: 10px;
-          }
-          .five{
-              background-color: darkblue;
-              color: white;
-              font-size: 20px;
-              text-align: center;
-              padding-top: 10px;
-              padding-bottom: 10px;
-              font-weight: bold;
-          }
-          .six{
-              background-color: cornflowerblue;
-              color: white;
-              font-size: 20px;
-              text-align: center;
-              padding-top: 10px;
-              padding-bottom: 10px;
-              font-weight: bold;
-          }
-          .seven{
-              background-color: darkblue;
-              color: white;
-              font-size: 20px;
-              text-align: center;
-              padding-top: 10px;
-              padding-bottom: 10px;
-              font-weight: bold;
-          }
-          .eight{
-              background-color: cornflowerblue;
-              color: white;
-              font-size: 20px;
-              text-align: center;
-              padding-top: 10px;
-              padding-bottom: 10px;
-              font-weight: bold;
-          }
-          .nine{
-            background-color: darkblue;
-              color: white;
-              font-size: 20px;
-              text-align: center;
-              padding-top: 10px;
-              padding-bottom: 10px;
-              font-weight: bold;
-          }
-          .ten{
-              background-color: cornflowerblue;
-              color: white;
-              font-size: 20px;
-              text-align: center;
-              padding-top: 10px;
-              padding-bottom: 10px;
-              font-weight: bold;
-          }
-        
-          .my-pic{
-            padding-right: 10px;
-            margin-left: 10px;
-            flex: 0%;
-            
-          }
-          .bio{
-            text-align: center;
-            padding-left: 50px;
-            padding-right: 20px;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            color: white;
-            font-size: 21px;
-            font-weight: bold;
-          }
-          
-          .fam-pic{
-              flex: 0%;
-              margin-left: 10px;
-          }
-        
-          .navbar{
-            font-size: 18px;
-            overflow: visible;
-            position: fixed;
-            top: 0;
-            width: 100%;
-            margin-bottom: 60px;
-            color: white;
-          }
-          .navbar a:hover {
-            background-color: rgb(0, 195, 255);
-            color: white;
-          }
-          
-          .pic{
-            display: flex;
-          }
-          .you-tube{
-            display: flex;
-            padding-top: 50px;
-            margin-left: 400px;
-            
-          }
-          .video-word{
-            flex: 0%;
-            font-weight: bold;
-            text-align: center;
-            color: white;
-            font-size: 20px;
-            padding-top: 100px;
-            
-          }
-          .video{
-            flex: 0%;
-            
-            
-          }
-          .eyes{
-            flex: 50%;
-            justify-content: center;
-            padding-bottom: 40px;
-            font-size: 30px;
-          }
-          .project{
-            display: flex;
-            padding-bottom: 30px;
-          }
-          .bus-tracker{
-            margin-left: 50px;
-            font-size: 30px;
-          }
-          .PacMan{
-            margin-left: 100px;
-            border: 3px solid wheat;
-            border-radius: 5px;
-            overflow: hidden;
-            font-size: 30px;
-          }
-          .passion-two{
-            padding-left: 100px;
-            padding-right: 100px;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            color: black;
-            font-size: 25px;
-            background-color: rgb(80, 179, 240);
-            text-align: center;
-          }
-          @media screen and (max-width:580px) {
-            .PacMan {
-            margin-left: 50px;
-            border: 3px solid wheat;
-            border-radius: 5px;
-            overflow: hidden;
-            font-size: 30px;
-            }
-            .project{
-              padding-bottom: 30px;
-            }
-            .side-sent{
-              font-size: 10px;
-            }
-          }
-          .carousel-inner{
-            width: 640px;
-            height: 600px;
-            justify-content: center;
-            flex: 0;
-          
-          }
-          .carousel slide{
-            justify-content: center;
-            width: 640px;
-            height: 600px;
-            flex: 0%;
-            
-          }
-          .carousel-section{
-            display: flex;
-            
-            justify-content: center;
-          }
-          .passion-three{
-            display: flex;
-            
-          }
-          .share-word{
-            margin-left: 50px;
-            padding-right: 100px;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            color: white;
-            font-size: 25px;
-            text-align: center;
-            flex: 0%;
-            padding-top: 50px;
-            font-size: 25px;
-            font-weight: bold;
-          }
-          .share-video{
-            margin-right: 50px; 
-          }
-
-      </style>
+        <link rel="stylesheet" type="text/css" href="./styles-home.css">
     </head>
 
     <body>
+  <!--Nav Bar section-->
     <nav class="navbar">
      <nav class="navbar navbar-expand-lg bg-body-tertiary" >
       <div class="container-fluid" style="background-color: cornflowerblue;">
@@ -404,12 +50,14 @@
         </ul>
         </div>
         <a class="navbar-brand" href="#" style="font-weight: bolder; font-size: xx-large; margin-left: 200px; margin-right: 100px;" >Tennille Williams - Associate Software Engineer</a>
-       <a class="nav-link" href="https://github.com/TennWilliams#" style="font-weight: 500; margin-left: 10px;">GitHub</a>
+       <a class="nav-link" href="https://github.com/TennWilliams/TennWilliams.github.io#" style="font-weight: 500; margin-left: 10px;">GitHub</a>
        <a class="nav-link" href="https://linkedin.com/in/tennille-williams-bb7864212#" style="font-weight: 500; margin-right: 20px; margin-left: 20px">LinkedIn</a>
       </div> 
       </nav>
     </nav>
+  <!--Nav Bar section ends-->
 
+  <!--scroll inspiration section-->
     <div class="page-header">Inspirational Corner</div>
     <div id="scroll-container">
         <div class="scroller">
@@ -422,29 +70,34 @@
           </span>
         </div>
     </div>
-    
+  <!--scroll section ends-->
 
+  <!--Top section with bio and pic-->
     <div class="me" id="me">Get To Know Me</div> 
     <div class="side-sent">My Kids are my Motivation</div>
     <div class="pic">
       <div class="fam-pic">
         <img src="kids.jpg" width="200" height="auto">
       </div>
-      <div class="bio">Hello, my name is Tennille Williams and I am ambitiously working to accomplish my dream of becoming a Software Engineer.  I was born and raised in Brooklyn, NY (hint hint Brooklyn Bridge backdrop) and now currently reside in Virginia.  I graduated from Pace University in 2005 with a Masters in Computer Science and a minor in Information Systems.  As life may have it after graduation I didn't land a job in my field so I settled for a career in Insurance.  Currently I am working at Travelers Insurance as a Business Process Analyst.  Now after becoming a mother and motivating my kids to follow their dreams I realized that I still have another dream to go after.  So here I am currently enrolled in MIT Full Stack MERN bootcamp pursing my dream.  Please explore my page to learn more about me and to see some of my projects.  Reach out to me via my LinkedIn page to let me know what you think.  And remember its never too late to accomplish your goals. Have a wonderful day!!!! 
+      <div class="bio">Hello, my name is Tennille Williams and I am ambitiously working to accomplish my dream of becoming a Software Engineer.  I was born and raised in Brooklyn, NY (hint hint Brooklyn Bridge backdrop) and now currently reside in Virginia.  I graduated from Pace University in 2005 with a Masters in Computer Science and a minor in Information Systems.  As life may have it after graduation I didn't land a job in my field so I settled for a career in Insurance.  Currently, I am working at Travelers Insurance as a Business Process Analyst.  Now after becoming a mother and motivating my kids to follow their dreams I realized that I still have another dream to go after.  So here I am currently enrolled in MIT Full Stack MERN bootcamp pursing my dream.  Please explore my page to learn more about me and to see some of my projects.  You can also find more projects and view my coding repositories on my GitHub page under my the name TennWilliams, link is in Nav Bar. Reach out to me via my LinkedIn page to let me know what you think.  And remember its never too late to accomplish your goals. Have a wonderful day!!!! 
       </div><br>
       <div class="my-pic">
         <img src="me.jpg" width="200" height="200" style="border-radius: 30%;">
       </div><br>
     </div>
+  <!--Top section section ends-->
 
+  <!--YouTube section-->
     <div class="you-tube" id="you-tube">
       <div class="video">
-      <iframe width="600" height="400" src="https://www.youtube.com/embed/uFhKNcfN024" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;        picture-in-picture" allowfullscreen>
+      <iframe width="600" height="400" src="https://www.youtube.com/embed/3LyqgYwFlQw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;        picture-in-picture" allowfullscreen>
       </iframe>
       </div>
       <div class="video-word">Check out my YouTube Video to get to know me better <br> Then reach out to me via my LinkedIn Page <br> (Link to page is in right hand corner of Nav Bar)</div><br>
     </div>
+  <!--YouTube section ends-->
 
+  <!--Skills section-->
     <div class="skills" id="skills">My Skills</div>
     <div class="content">
         <div class="one">Leadership</div>
@@ -457,6 +110,9 @@
         <div class="eight">SharePoint Designer</div>
         <div class="nine">Problem Solving</div>
     </div>
+  <!--Skills section end-->
+
+  <!--MIT Project section-->
 
     <div class="MIT" id="MIT">MIT Projects
       <div class="MIT-two">Below are some of my JavaScript projects that I coded while attending MIT Full Stack MERN Certification Course.  To see these projects in full effect and for each project's description please visit my <button style="color: blueviolet;" onclick="document.location='project.html'">Project Page</button>. To see my other projects please vist my GitHub repository site via the GitHub link in the Navigation Bar.</div><br>
@@ -467,7 +123,7 @@
           <img src="eye.jpg" alt="Eyes that follow you" width="700" height="400">
         </div><br>
         <div class="project">
-          <div class="bus-tracker">How Many Stops Do I have?<br>
+          <div class="bus-tracker">How Many Stops Do I have? <br>
             <embed src="bus.jpg" alt="Real Time Bus Tracker" width="800" height="400">
           </div>
           <div class="PacMan">PacMan Game<br>
@@ -475,10 +131,13 @@
           </div>
         </div>
     </div>
+  <!--MIT Project section ends-->
 
+  <!--Passion Project section-->
     <div class="passion" id="passion">Passion Projects
       <div class="passion-two">I always had a love for programming since high school when I started studying it but the focus was mainly on the back end of programming.      However over the years I have been drawn to the creativity of the front end of programming and am looking to explore this passion of mine more.  In my spare time I design invites, programs and flyers for family members and have listed some of these projects below.
       </div>
+    <!--carousel section-->
       <div class ="carousel-section">
         <div id="carouselExampleDark" class="carousel carousel-dark slide " data-bs-ride="carousel">
           <div class="carousel-indicators">
@@ -529,24 +188,19 @@
           </button><br>
         </div>
       </div>
-  
-      <div class="passion-three">
-        <div class="share-word">At work, I was given the opportunity to build and design my team's new SharePoint Online site and this has given me the chance to tap into my creative side.  Please view my video below showcasing this site and as always you can contact me via LinkedIn.</div>
-      <div class="share-video">
-      <iframe width="600" height="600" src="SharePoint.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;        picture-in-picture" allowfullscreen>
-      </iframe>
-      </div>
+  <!--carousel section ends-->
 
-    </div>
+      <div class="passion-three">
+        <div class="share-word">At work, I was given the opportunity to build and design my team's new SharePoint Online site and this has given me the chance to tap into my creative side.  Please view my video showcasing this site and as always you can contact me via LinkedIn.</div>
+        <div class="share-video">
+          <iframe width="600" height="600" src="SharePoint.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;        picture-in-picture" allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+      <!--Passion Project section ends-->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
-    <script>
-      function greet() {
-        alert('Welcome to my page!!! Make sure to view all sections and dont forgot about my Project Page.  You can navigate there by clicking the "Project Page" button in the MIT section below or by clicking the "MIT Projects" button under the Projects tab in the Navigation Bar.  Have a wonderful day!!!');
-      }
-    setTimeout(greet, 30000); //execute greet after 2 seconds
-      </script>
-
+    <script src="./home.js"></script>
   </body>
 </html>

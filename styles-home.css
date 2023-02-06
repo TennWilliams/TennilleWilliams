@@ -1,0 +1,350 @@
+        
+    #scroll-container {
+    border: 3px solid blue;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 35%;
+    display: flex;
+    margin-left: 1000px;
+    }
+
+    .scroller {
+      height: 1.2em;
+      line-height: 1.2em;
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      flex: 0%;
+    
+    }
+
+    .scroller > span {
+      position: absolute;
+      top: 0;
+      animation: slide 20s infinite;
+      font-weight: bold;
+      text-align: center;
+      padding-left: 30px;
+      color: white;
+      flex: 0%;
+      justify-content: center;
+    }
+
+    @keyframes slide {
+      0% {
+        top: 0;
+      }
+      25% {
+        top: -1.2em;
+      }
+      50% {
+        top: -2.4em;
+      }
+      75% {
+        top: -3.6em;
+      }
+    }
+
+    .page-header{
+      padding-top: 70px;
+      display: flex;
+      color: white;
+      font-style: italic;
+      font-size: x-large;
+      justify-content: end;
+      margin-right: 350px;
+    }
+
+    .side-sent{
+        font-family: 'Marck Script', cursive;
+        font-size: 17px;
+        font-variant: normal;
+        color: whitesmoke;
+        padding: 0;
+        margin: 0;
+        line-height: 0em;
+        margin-left: 12px;
+        padding-bottom: 10px;
+    }
+    .me{
+        color: white;
+        text-align: center;
+        font-size: 50px;
+        padding-left: 50px;
+        justify-content: center;
+        font-family: 'Oleo Script', cursive;     
+    }
+    .skills{
+        color: white;
+        text-align: center;
+        font-size: 50px;
+        padding-top: 40px;
+        font-family: 'Oleo Script', cursive;
+    }
+    
+    .passion{
+        color: white;
+        text-align: center;
+        font-size: 50px;
+        padding-top: 40px;
+        font-family: 'Oleo Script', cursive;
+    }
+    .MIT{
+        color: white;
+        text-align: center;
+        font-size: 50px;
+        padding-top: 40px;
+        font-family: 'Oleo Script', cursive;
+    }
+    .MIT-two{
+      padding-left: 100px;
+      padding-right: 100px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      color: black;
+      font-size: 25px;
+      background-color: rgb(80, 179, 240);
+      text-align: center;
+    }
+    body{
+        background-image: url('NY3.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover; 
+    }
+    .content{
+        display: grid;
+        grid-template-columns: 400px 400px 400px;
+        grid-template-rows: 2fr 2fr 2fr;
+        justify-content: center;
+        gap: 10px;  
+        padding: 20px;   
+    }
+    .one{
+        background-color: darkblue;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-weight: bold;
+    }
+    .two{
+        background-color: cornflowerblue;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: bold;
+    }
+    .three{
+        background-color: darkblue;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: bold;
+    }
+    .four{
+        background-color: cornflowerblue;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        padding-top: 10px;
+        font-weight: bold;
+        padding-bottom: 10px;
+    }
+    .five{
+        background-color: darkblue;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: bold;
+    }
+    .six{
+        background-color: cornflowerblue;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: bold;
+    }
+    .seven{
+        background-color: darkblue;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: bold;
+    }
+    .eight{
+        background-color: cornflowerblue;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: bold;
+    }
+    .nine{
+      background-color: darkblue;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: bold;
+    }
+    .ten{
+        background-color: cornflowerblue;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: bold;
+    }
+  
+    .my-pic{
+      padding-right: 10px;
+      margin-left: 10px;
+      flex: 0%;
+      
+    }
+    .bio{
+      text-align: center;
+      padding-left: 50px;
+      padding-right: 20px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      color: white;
+      font-size: 21px;
+      font-weight: bold;
+    }
+    
+    .fam-pic{
+        flex: 0%;
+        margin-left: 10px;
+    }
+  
+    .navbar{
+      font-size: 18px;
+      overflow: visible;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      margin-bottom: 60px;
+      color: white;
+    }
+    .navbar a:hover {
+      background-color: rgb(0, 195, 255);
+      color: white;
+    }
+    
+    .pic{
+      display: flex;
+    }
+    .you-tube{
+      display: flex;
+      padding-top: 50px;
+      margin-left: 400px;
+      
+    }
+    .video-word{
+      flex: 0%;
+      font-weight: bold;
+      text-align: center;
+      color: white;
+      font-size: 20px;
+      padding-top: 100px;
+      
+    }
+    .video{
+      flex: 0%;
+      
+    }
+    .eyes{
+      flex: 50%;
+      justify-content: center;
+      padding-bottom: 40px;
+      font-size: 30px;
+    }
+    .project{
+      display: flex;
+      padding-bottom: 30px;
+    }
+    .bus-tracker{
+      margin-left: 50px;
+      font-size: 30px;
+    }
+    .PacMan{
+      margin-left: 100px;
+      border: 3px solid wheat;
+      border-radius: 5px;
+      overflow: hidden;
+      font-size: 30px;
+    }
+    .passion-two{
+      padding-left: 100px;
+      padding-right: 100px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      color: black;
+      font-size: 25px;
+      background-color: rgb(80, 179, 240);
+      text-align: center;
+    }
+    /* media viewing settings*/
+    @media screen and (max-width:580px) {
+      .PacMan {
+      margin-left: 20px;
+      border: 3px solid wheat;
+      border-radius: 5px;
+      overflow: hidden;
+      font-size: 30px;
+      }
+      .project{
+        padding-bottom: 30px;
+      }
+      .side-sent{
+        font-size: 10px;
+      }
+    }
+    .carousel-inner{
+      width: 640px;
+      height: 600px;
+      justify-content: center;
+      flex: 0;
+    }
+    .carousel slide{
+      justify-content: center;
+      width: 640px;
+      height: 600px;
+      flex: 0%;
+    }
+    .carousel-section{
+      display: flex;
+      justify-content: center;
+    }
+    .passion-three{
+      display: flex;
+      
+    }
+    .share-word{
+      margin-left: 50px;
+      padding-right: 100px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      color: white;
+      font-size: 25px;
+      text-align: center;
+      flex: 0%;
+      padding-top: 50px;
+      font-size: 25px;
+      font-weight: bold;
+    }
+    .share-video{
+      margin-right: 50px; 
+    }

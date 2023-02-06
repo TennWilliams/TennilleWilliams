@@ -1,0 +1,152 @@
+
+    .navbar{
+        font-size: 18px;
+        overflow: visible;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        margin-bottom: 60px;
+        color: white;
+      }
+      .navbar a:hover {
+        background-color: purple;
+        color: white;
+      }
+      body{
+        background-image: url('sunset2.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover; 
+      }
+      .header{
+        color: white;
+        text-align: center;
+        font-size: 50px;
+        padding-top: 90px;
+        font-family: 'Oleo Script', cursive;
+      }
+      .header-words{
+        color: white;
+        text-align: center;
+        font-size: xx-large;
+        padding-top: 40px;
+        font-family: 'Oleo Script', cursive;
+      }
+      .eyes-header{
+        margin-left: 130px;
+        font-size: 30px;
+        padding-top: 40px;
+        color: white;
+        font-weight: bolder;
+      }
+      .eyes{
+        margin-left: 50px;
+        display: flex;
+      }
+      .eyes-words{
+        padding-bottom: 40px;
+        color: white;
+        padding-left: 20px;
+        flex: 0%;
+        font-weight: bold;
+        font-size: x-large;
+        padding-top: 60px;
+        text-align: center;
+        margin-right: 20px;
+      }
+      .bus-header{
+        text-align: center;
+        font-size: 30px;
+        padding-top: 40px;
+        font-weight: bolder;
+        color: white;
+      }
+      .bus-tracker{
+        flex: 0%;
+        padding-bottom: 40px;
+        color: white;
+        margin-left: 100px;
+      }
+      .bus-words{
+        padding-bottom: 40px;
+        color: white;
+        font-weight: bold;
+        font-size: x-large;
+        padding-top: 60px;
+        text-align: center;
+        margin-left: 100px;
+        margin-right: 250px;
+      }
+       #scroll-container {
+        flex: 0%;
+        width: 500;
+        height: 500;
+        margin-left: 80px;
+        padding-right: 240px;
+     }
+      .PacMan-words{
+        color: white;
+        font-weight: bold;
+        font-size: x-large;
+        text-align: center;
+        padding-right: 10px;
+        margin-left: 20px;
+        display: flex;
+      }
+      .PacMan-header{
+        padding-left: 280px;
+        font-size: 30px;
+        padding-top: 40px;
+        color: white;
+        font-weight: bolder;
+      }
+      .PacMan{
+        flex: 0%;
+        border: 3px solid wheat;
+        border-radius: 5px;
+        overflow: hidden;
+      }
+      @media screen and (max-width:580px) {
+        .eyes{
+        margin-left: 50px;
+        }
+        .eyes-words{
+        padding-bottom: 40px;
+        color: white;
+        font-weight: bold;
+        font-size: x-large;
+        padding-top: 60px;
+        text-align: center;
+      }
+      .bus-tracker{
+        padding-bottom: 40px;
+        color: white;
+        margin-left: 50px;
+        width: 1000px;
+      }
+      .bus-words{
+        padding-top: 60px;
+        color: white;
+        font-weight: bold;
+        font-size: x-large;
+        padding-top: 60px;
+        text-align: center;
+      }
+      #scroll-container {
+        width: 500;
+        height: 500;
+     }
+     .PacMan-words{
+        color: white;
+        font-weight: bold;
+        font-size: x-large;
+        text-align: center;
+        padding-top: 60px;
+      }
+      .PacMan{
+        border: 3px solid wheat;
+        border-radius: 5px;
+        overflow: hidden;
+      }
+      }
+    
