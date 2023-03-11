@@ -11,6 +11,46 @@
       .navbar a:hover {
         background-color: purple;
         color: white;
+        bottom: 2px;
+      }
+      .nav-item a{
+        position: relative;
+      }
+      .nav-item a:active{
+        top: 2px;
+      }
+      .container-fluid a{
+        position: relative;
+      }
+      .container-fluid a:active{
+        top: 2px;
+      }
+      .eyes a{
+        position: relative;
+      }
+      .eyes a:hover{
+        background-color: whitesmoke;
+      }
+      .eyes a:active{
+        top: 2px;
+      }
+      .bus-tracker a:hover{
+        background-color: whitesmoke;
+      }
+      .bus-tracker a{
+        position: relative;
+      }
+      .bus-tracker a:active{
+        top: 2px;
+      }
+      .PacMan-words a:hover{
+        background-color: whitesmoke;
+      }
+      .PacMan-words a{
+        position: relative;
+      }
+      .PacMan-words a:active{
+        top: 2px;
       }
       body{
         background-image: url('sunset2.jpg');
