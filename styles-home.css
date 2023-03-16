@@ -233,6 +233,19 @@
         margin-left: 10px;
     }
   
+  .MIT-two button {
+      position: relative;
+      color: blueviolet;
+  }
+  .MIT-two button:hover{
+      cursor: pointer;
+      bottom: 2px;
+      font-weight: bolder;
+      background-color: goldenrod;
+    }
+  .MIT-two button:active{
+      top: 2px;
+    }
     .navbar{
       font-size: 18px;
       overflow: visible;
