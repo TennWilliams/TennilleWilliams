@@ -6,6 +6,7 @@ In my Portfolio Project I designed and created my personal webiste using HTML, J
 ## Future improvments 
 For this website I would like to create a custom welcome message instead of using the alert function.  I also want to use reusable components for the nav bar on both pages.  Lastly I want to add style for media viewing (on phones or tablets) of my website.
 
+## View Website
 You can view my personal website here <a href="https://tennwilliams.github.io/TennilleWilliams"> Tennille Williams Portfolio </a> 
 
 License through MIT
