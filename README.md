@@ -9,4 +9,3 @@ For this website I would like to create a custom welcome message instead of usin
 ## View Website
 You can view my personal website here <a href="https://tennwilliams.github.io/TennilleWilliams"> Tennille Williams Portfolio </a> 
 
-License through MIT
