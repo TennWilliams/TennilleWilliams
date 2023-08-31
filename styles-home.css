@@ -3,9 +3,9 @@
     border: 3px solid blue;
     border-radius: 5px;
     overflow: hidden;
-    width: 35%;
+    width: 10%;
     display: flex;
-    margin-left: 1000px;
+    margin-left: 68vw;
     }
 
     .scroller {
@@ -13,7 +13,6 @@
       line-height: 1.2em;
       position: relative;
       overflow: hidden;
-      width: 100%;
       flex: 0%;
     
     }
@@ -21,10 +20,10 @@
     .scroller > span {
       position: absolute;
       top: 0;
-      animation: slide 20s infinite;
+      animation: slide 15s infinite;
       font-weight: bold;
       text-align: center;
-      padding-left: 30px;
+      padding-left: 1vw;
       color: white;
       flex: 0%;
       justify-content: center;
@@ -46,13 +45,12 @@
     }
 
     .page-header{
-      padding-top: 70px;
+      padding-top: 6vw;
       display: flex;
       color: white;
       font-style: italic;
       font-size: x-large;
-      justify-content: end;
-      margin-right: 350px;
+      margin-left: 67vw;
     }
 
     .side-sent{
@@ -63,14 +61,13 @@
         padding: 0;
         margin: 0;
         line-height: 0em;
-        margin-left: 12px;
-        padding-bottom: 10px;
+        margin-left: 0.6vw;
+        padding-bottom: 0.5vw;
     }
     .me{
         color: white;
         text-align: center;
         font-size: 50px;
-        padding-left: 50px;
         justify-content: center;
         font-family: 'Oleo Script', cursive;     
     }
@@ -78,7 +75,7 @@
         color: white;
         text-align: center;
         font-size: 50px;
-        padding-top: 40px;
+        padding-top: 10vw;
         font-family: 'Oleo Script', cursive;
     }
     
@@ -86,20 +83,20 @@
         color: white;
         text-align: center;
         font-size: 50px;
-        padding-top: 40px;
+        padding-top: 10vw;
         font-family: 'Oleo Script', cursive;
     }
     .MIT{
         color: white;
         text-align: center;
         font-size: 50px;
-        padding-top: 40px;
+        padding-top: 10vw;
         font-family: 'Oleo Script', cursive;
     }
    
     .MIT-two{
-      padding-left: 100px;
-      padding-right: 100px;
+      display: inline-block;
+      justify-content: center;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
       color: black;
       font-size: 25px;
@@ -115,19 +112,19 @@
     }
     .content{
         display: grid;
-        grid-template-columns: 400px 400px 400px;
+        grid-template-columns: 40vw 40vw 40vw;
         grid-template-rows: 2fr 2fr 2fr;
         justify-content: center;
-        gap: 10px;  
-        padding: 20px;   
+        gap: 0.5vw;  
+        padding: 0.5vw;   
     }
     .one{
         background-color: darkblue;
         color: white;
         font-size: 20px;
         text-align: center;
-        padding-bottom: 10px;
-        padding-top: 10px;
+        padding-bottom: 0.5vw;
+        padding-top: 0.5vw;
         font-weight: bold;
     }
     .two{
@@ -135,8 +132,8 @@
         color: white;
         font-size: 20px;
         text-align: center;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 0.5vw;
+        padding-bottom: 0.5vw;
         font-weight: bold;
     }
     .three{
@@ -144,8 +141,8 @@
         color: white;
         font-size: 20px;
         text-align: center;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 0.5vw;
+        padding-bottom: 0.5vw;
         font-weight: bold;
     }
     .four{
@@ -153,17 +150,17 @@
         color: white;
         font-size: 20px;
         text-align: center;
-        padding-top: 10px;
+        padding-top: 0.5vw;
         font-weight: bold;
-        padding-bottom: 10px;
+        padding-bottom: 0.5vw;
     }
     .five{
         background-color: darkblue;
         color: white;
         font-size: 20px;
         text-align: center;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 0.5vw;
+        padding-bottom: 0.5vw;
         font-weight: bold;
     }
     .six{
@@ -171,8 +168,8 @@
         color: white;
         font-size: 20px;
         text-align: center;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 0.5vw;
+        padding-bottom: 0.5vw;
         font-weight: bold;
     }
     .seven{
@@ -180,8 +177,8 @@
         color: white;
         font-size: 20px;
         text-align: center;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 0.5vw;
+        padding-bottom: 0.5vw;
         font-weight: bold;
     }
     .eight{
@@ -189,8 +186,8 @@
         color: white;
         font-size: 20px;
         text-align: center;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 0.5vw;
+        padding-bottom: 0.5vw;
         font-weight: bold;
     }
     .nine{
@@ -198,8 +195,8 @@
         color: white;
         font-size: 20px;
         text-align: center;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 0.5vw;
+        padding-bottom: 0.5vw;
         font-weight: bold;
     }
     .ten{
@@ -207,21 +204,21 @@
         color: white;
         font-size: 20px;
         text-align: center;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 0.5vw;
+        padding-bottom: 0.5vw;
         font-weight: bold;
     }
   
     .my-pic{
-      padding-right: 10px;
-      margin-left: 10px;
+      padding-right: 0.5vw;
+      margin-left: 0.5vw;
       flex: 0%;
       
     }
     .bio{
       text-align: center;
-      padding-left: 50px;
-      padding-right: 20px;
+      padding-left: 1vw;
+      padding-right: 1vw;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
       color: white;
       font-size: 21px;
@@ -230,7 +227,7 @@
     
     .fam-pic{
         flex: 0%;
-        margin-left: 10px;
+        margin-left: 0.5vw;
     }
   
   .MIT-two button {
@@ -251,8 +248,8 @@
       overflow: visible;
       position: fixed;
       top: 0;
-      width: 100%;
-      margin-bottom: 60px;
+      
+      margin-bottom: 5vw;
       color: white;
     }
     .navbar a:hover {
@@ -277,52 +274,50 @@
     }
     .you-tube{
       display: flex;
-      padding-top: 50px;
-      margin-left: 400px;
+      padding-top: 5vw;
+      margin-left: 20vw;
       
     }
+
     .video-word{
-      flex: 0%;
+      padding-left: 5vw;
       font-weight: bold;
       text-align: center;
       color: white;
       font-size: 20px;
-      padding-top: 100px;
-      
+      padding-top: 8vw; 
     }
-    .video{
-      flex: 0%;
+    
       
-    }
+    
     .eyes{
       flex: 50%;
       justify-content: center;
-      padding-bottom: 40px;
+      padding-top: 4vw;
+      padding-bottom: 4vw;
       font-size: 30px;
     }
-    .project{
-      display: flex;
-      padding-bottom: 30px;
-    }
+    
     .bus-tracker{
-      margin-left: 50px;
       font-size: 30px;
     }
     .PacMan{
-      margin-left: 100px;
-      border: 3px solid wheat;
-      border-radius: 5px;
-      overflow: hidden;
       font-size: 30px;
     }
+
+    #pac{
+      border: 10px solid royalblue;
+      border-radius: 5px;
+      overflow: hidden;
+    }
     .passion-two{
-      padding-left: 100px;
-      padding-right: 100px;
+      
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
       color: black;
       font-size: 25px;
       background-color: rgb(80, 179, 240);
       text-align: center;
+      justify-content: center;
     }
     /* media viewing settings*/
     @media screen and (max-width:580px) {
@@ -355,23 +350,56 @@
     .carousel-section{
       display: flex;
       justify-content: center;
+      
     }
     .passion-three{
       display: flex;
       
     }
     .share-word{
-      margin-left: 50px;
-      padding-right: 100px;
+      margin-left: 5vw;
+      padding-right: 10vw;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
       color: white;
-      font-size: 25px;
       text-align: center;
       flex: 0%;
-      padding-top: 50px;
+      padding-top: 5vw;
       font-size: 25px;
       font-weight: bold;
     }
     .share-video{
-      margin-right: 50px; 
+      margin-right: 5vw; 
     }
+
+    /*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: whitesmoke;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+
+.back-to-top i {
+  font-size: 28px;
+  color: cornflowerblue;
+  line-height: 0;
+}
+
+.back-to-top:hover {
+  background: palevioletred;
+  color: #fff;
+}
+
+.back-to-top.active {
+  visibility: visible;
+  opacity: 1;
+}

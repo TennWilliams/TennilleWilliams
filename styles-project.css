@@ -5,7 +5,7 @@
         position: fixed;
         top: 0;
         width: 100%;
-        margin-bottom: 60px;
+        margin-bottom: 3vw;
         color: white;
       }
       .navbar a:hover {
@@ -62,81 +62,83 @@
         color: white;
         text-align: center;
         font-size: 50px;
-        padding-top: 90px;
+        padding-top: 5vw;
         font-family: 'Oleo Script', cursive;
       }
       .header-words{
         color: white;
         text-align: center;
         font-size: xx-large;
-        padding-top: 40px;
+        padding-top: 3vw;
         font-family: 'Oleo Script', cursive;
+        
       }
       .eyes-header{
-        margin-left: 130px;
+        margin-left: 7vw;
         font-size: 30px;
-        padding-top: 40px;
         color: white;
         font-weight: bolder;
+        padding-top: 5vw;
       }
       .eyes{
-        margin-left: 50px;
+        margin-left: 3vw;
         display: flex;
       }
       .eyes-words{
-        padding-bottom: 40px;
+        padding-bottom: 3vw;
         color: white;
-        padding-left: 20px;
+        padding-left: 1vw;
         flex: 0%;
         font-weight: bold;
         font-size: x-large;
-        padding-top: 60px;
+        padding-top: 4vw;
         text-align: center;
-        margin-right: 20px;
+        margin-right: 1vw;
       }
       .bus-header{
         text-align: center;
         font-size: 30px;
-        padding-top: 40px;
+        padding-top: 5vw;
         font-weight: bolder;
         color: white;
       }
       .bus-tracker{
         flex: 0%;
-        padding-bottom: 40px;
+        padding-bottom: 1vw;
         color: white;
-        margin-left: 100px;
+        margin-left: 5vw;
       }
       .bus-words{
-        padding-bottom: 40px;
+        padding-bottom: 2vw;
         color: white;
         font-weight: bold;
         font-size: x-large;
-        padding-top: 60px;
+        padding-top: 2vw;
         text-align: center;
-        margin-left: 100px;
-        margin-right: 250px;
+        margin-left: 8vw;
+        margin-right: 8vw;
       }
        #scroll-container {
         flex: 0%;
         width: 500;
         height: 500;
-        margin-left: 80px;
-        padding-right: 240px;
+        padding-left: 10vw;
+        padding-right: 10vw;
      }
       .PacMan-words{
         color: white;
         font-weight: bold;
         font-size: x-large;
         text-align: center;
-        padding-right: 10px;
-        margin-left: 20px;
+        padding-right: 3vw;
+        margin-left: 2vw;
         display: flex;
+        
       }
       .PacMan-header{
-        padding-left: 280px;
+        padding-left: 15vw;
         font-size: 30px;
-        padding-top: 40px;
+        padding-top: 2vw;
         color: white;
         font-weight: bolder;
       }
@@ -146,47 +148,5 @@
         border-radius: 5px;
         overflow: hidden;
       }
-      @media screen and (max-width:580px) {
-        .eyes{
-        margin-left: 50px;
-        }
-        .eyes-words{
-        padding-bottom: 40px;
-        color: white;
-        font-weight: bold;
-        font-size: x-large;
-        padding-top: 60px;
-        text-align: center;
-      }
-      .bus-tracker{
-        padding-bottom: 40px;
-        color: white;
-        margin-left: 50px;
-        width: 1000px;
-      }
-      .bus-words{
-        padding-top: 60px;
-        color: white;
-        font-weight: bold;
-        font-size: x-large;
-        padding-top: 60px;
-        text-align: center;
-      }
-      #scroll-container {
-        width: 500;
-        height: 500;
-     }
-     .PacMan-words{
-        color: white;
-        font-weight: bold;
-        font-size: x-large;
-        text-align: center;
-        padding-top: 60px;
-      }
-      .PacMan{
-        border: 3px solid wheat;
-        border-radius: 5px;
-        overflow: hidden;
-      }
-      }
+      
     
