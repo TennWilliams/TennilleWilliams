@@ -112,7 +112,7 @@
     }
     .content{
         display: grid;
-        grid-template-columns: 40vw 40vw 40vw;
+        grid-template-columns: 30vw 30vw 30vw;
         grid-template-rows: 2fr 2fr 2fr;
         justify-content: center;
         gap: 0.5vw;  
